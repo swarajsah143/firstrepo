@@ -1,0 +1,152 @@
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+#first,#secend,#third{
+    margin-right: 7px;
+    border-radius: 100%;
+    height: 15px;
+    width: 15px;
+}
+#first{
+    background-color: red;
+}
+#secend{
+    background-color: orange;
+}
+#third{
+    background-color: green;
+}
+
+body {
+    background-color: rgb(19, 86, 231);
+}
+
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 26%;
+    height: 600px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    box-shadow: 1px 1px 13px 2px;
+}
+
+
+#cover {
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+
+}
+
+#cover img {
+    border-radius: 10%;
+    width: 100%;
+    height: 200px;
+    box-shadow: 1px 1px 15px 5px gray;
+ border-radius: 30px 30px 0 0;
+
+}
+
+#profile {
+    margin-top: -70px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(103, 24, 24);
+    border-radius: 50%;
+}
+
+#profile img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px 5px gray;
+}
+
+.about {
+    margin-top: 15px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+
+.about span b {
+    font-size: 30px;
+}
+
+.about span p {
+    color: gray
+}
+
+.ff {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    line-height: 25px;
+    margin-top: 50px;
+    text-align: center;
+}
+#ff span{
+    color: blue;
+}
+
+#follower {
+    margin-left: auto;
+    width: 150px;
+}
+
+#following {
+    margin-right: auto;
+    width: 142px;
+}
+#follower span{
+    color: blue;
+}
+#following span{
+    color: blue;
+}
+
+.button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 36px;
+    margin-top: 15px;
+    border-radius: 25px;
+    background-color:rgb(44, 105, 236);
+    padding:7px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.button span{
+    color: aliceblue;
+    font-family::'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}   
+#capbox{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
