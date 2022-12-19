@@ -1,0 +1,143 @@
+body {
+
+    background-image: url("walpaper.jpg");
+}
+
+* {
+    margin-top: 0;
+    margin-left: 0;
+
+}
+
+.box {
+    margin-top: 20px;
+width: 800px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgba(241, 231, 231, 0.2);
+
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 30px;
+    border: 2px solid rgb(255, 255, 255, .2);
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: beige;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+#c1 {
+    background-color: red;
+}
+
+#c2 {
+    background-color: YELLOW;
+}
+
+#c3 {
+    background-color: green;
+}
+.leftbox{
+    margin-top: -430px;
+    height: 516px;
+    width: 170px;
+    border: 2px solid rgba(255, 255, 255,.2);
+}
+.uperbtn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 80px;
+    width: 150px;
+/* background-color: blue; */
+}
+#home ,#whatIdo{
+    width: 140px; 
+    height: 25px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius:  13px;
+    color: white;
+    background-color: rgb(255, 255, 255, .2);
+    border: 1px solid rgba(255, 255, 255,.2);
+}
+span{
+    margin-right: 10px;
+
+}
+.des{padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    height: 280px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px  rgb(124, 8, 119);
+    background-color: rgba(255, 255, 255,.2);
+border: 2px  solid rgb(184, 175, 175);
+    /* background-color: pink; */
+}
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(28, 90, 215);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-bottom: 5px;
+    color: white;
+}
+h5{
+    font-size: 17px;
+margin-top: 30px;
+}
+.icons{
+    margin-left: 15px ;
+    width: 156px;
+    height: 200px;
+    /* background-color: blue; */
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+.manage{
+    margin-top: -20px;
+}
+.remaining{
+    margin-top: -50px;
+    /* font-size: 20px; */
+}
+#remaining {
+    color: black;
+touch-action: pinch-zoom;
+margin-top: 10px;
+    margin-right: auto;
+margin-left: -15px;
+font-size: 17px;
+/* background-color: pink; */
+
+}
+.lasticons{
+margin-left: 15px ;
+margin-top: -20px;
+width: 156px;
+height: 200px;
+/* background-color: blue; */
+color: white;
+font-size: 20px;
+line-height: 30px;
+}
