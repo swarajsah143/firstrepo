@@ -1,0 +1,72 @@
+body{
+    background-color: pink;
+}
+span{
+    background-color: bl/ue;
+    margin-left: 600px;
+color: green;
+font-size: 40px;
+}
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 390px;
+    width: 420px;
+background-color:floralwhite;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(40, 32, 189);
+}
+
+.rectangle1,
+.rectangle2,.rectangle3,.rectangle4 {
+    width: 400px;
+    height: 64px;
+    background-color: rgb(225, 59, 59);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box .rectangle1 {
+    background-color: white;
+    margin-top: 30px;
+}
+
+.box .rectangle2{
+    background-color: white;
+}
+
+.box .rectangle3{
+    background-color:green;
+    
+   
+}
+
+.box .rectangle4{
+    background-color: rgb(89, 19, 187);
+   
+}
+.rectangle1:hover{
+    background-color: gray;
+}
+
+.rectangle2:hover{
+    background-color: gray;
+}
+
+.rectangle3:hover{
+    background-color: gray;
+}
+
+.rectangle4:hover{
+    background-color: gray;
+}
